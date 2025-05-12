@@ -100,7 +100,10 @@ export default function HeroSlider() {
               alt={slide.title}
               fill
               priority={index === 0}
+              sizes="100vw"
+              loading={index === 0 ? "eager" : "lazy"}
               className="object-cover"
+              quality={90}
             />
             <div className="absolute inset-0 hero-overlay"></div>
           </div>
