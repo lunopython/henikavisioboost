@@ -6,9 +6,9 @@ import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 
 export const metadata: Metadata = {
-  title: 'Henika group - Premium Export Products',
-  description: 'Premium exporter of spices, fruits, vegetables, and raffia products to global markets',
-  keywords: 'export, spices, fruits, vegetables, raffia, global trade, premium products',
+  title: 'Henika Group - Produits d\'exportation premium',
+  description: 'Exportateur premium d\'épices, fruits, légumes et produits en raphia vers les marchés mondiaux',
+  keywords: 'exportation, épices, fruits, légumes, raphia, commerce mondial, produits premium',
 };
 
 export default function RootLayout({
