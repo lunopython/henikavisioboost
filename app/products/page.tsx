@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import ProductGrid from "@/components/products/ProductGrid";
@@ -56,7 +57,7 @@ export default function ProductsPage() {
         <div className="container px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <h2 className="text-3xl md:text-4xl font-playfair font-bold mb-4">
-              Notre Processus d'Exportation
+              Notre Processus d&apos;Exportation
             </h2>
             <p className="text-slate-600">
               De la sélection à la livraison, nous garantissons la qualité à chaque étape.
@@ -79,7 +80,7 @@ export default function ProductsPage() {
                 <p className="text-slate-600">
                   Nous travaillons directement avec les producteurs pour sélectionner les produits de la plus haute qualité 
                   répondant à nos normes strictes. Chaque article est soigneusement choisi pour sa qualité, sa durabilité 
-                  et son aptitude à l'exportation.
+                  et son aptitude à l&apos;exportation.
                 </p>
               </div>
             </div>
@@ -98,7 +99,7 @@ export default function ProductsPage() {
                 <h3 className="text-xl font-playfair font-bold mb-3">Traitement & Contrôle Qualité</h3>
                 <p className="text-slate-600">
                   Les produits subissent un traitement méticuleux et des contrôles qualité rigoureux. Notre équipe 
-                  s'assure que chaque produit respecte les normes de sécurité internationales et les exigences d'exportation.
+                  s&apos;assure que chaque produit respecte les normes de sécurité internationales et les exigences d&apos;exportation.
                 </p>
               </div>
             </div>
@@ -116,8 +117,8 @@ export default function ProductsPage() {
                 <div className="w-10 h-10 rounded-full bg-emerald-700 text-white flex items-center justify-center font-bold mb-4">3</div>
                 <h3 className="text-xl font-playfair font-bold mb-3">Emballage & Expédition</h3>
                 <p className="text-slate-600">
-                  Nous utilisons des emballages spécialisés pour garantir l'intégrité des produits pendant le transport. 
-                  Notre équipe logistique gère toute la documentation d'exportation et les arrangements d'expédition pour 
+                  Nous utilisons des emballages spécialisés pour garantir l&apos;intégrité des produits pendant le transport. 
+                  Notre équipe logistique gère toute la documentation d&apos;exportation et les arrangements d&apos;expédition pour 
                   une livraison fluide.
                 </p>
               </div>
@@ -229,9 +230,8 @@ export default function ProductsPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg">
               <p className="italic text-emerald-50 mb-6">
-                "Nous importons des épices de Henika Group depuis plus de 5 ans. Leur qualité constante 
-                et leur fiabilité en ont fait notre fournisseur préféré. Leurs produits respectent toujours 
-                nos normes de qualité strictes."
+                &quot;Nous importons des épices de Henika Group depuis plus de 5 ans. Leur qualité constante 
+                et leur fiabilité en ont fait notre fournisseur préféré.&quot;
               </p>
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-emerald-700 rounded-full flex items-center justify-center text-white font-bold mr-4">
