@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
@@ -43,7 +44,7 @@ export default function Home() {
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="https://images.pexels.com/photos/6157225/pexels-photo-6157225.jpeg"
+                src="/images/g1.jpg"
                 alt="Produits d'exportation de qualité"
                 fill
                 className="object-cover"

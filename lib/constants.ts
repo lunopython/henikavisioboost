@@ -27,19 +27,19 @@ export const PRODUCT_CATEGORIES = [
     id: 'produce',
     name: 'Produits Frais',
     description: 'Fruits et légumes frais cultivés avec des pratiques durables',
-    image: 'https://images.pexels.com/photos/1458694/pexels-photo-1458694.jpeg'
+    image: '/images/g1.jpg'
   },
   {
     id: 'raffia',
     name: 'Produits en Raphia',
     description: 'Produits en raphia faits à la main par des artisans qualifiés',
-    image: 'https://images.pexels.com/photos/6969268/pexels-photo-6969268.jpeg'
+    image: '/images/g2.jpg'
   },
   {
     id: 'decorative',
     name: 'Articles Décoratifs',
     description: 'Articles décoratifs uniques qui allient tradition et design moderne',
-    image: 'https://images.pexels.com/photos/4997809/pexels-photo-4997809.jpeg'
+    image: '/images/g3.jpg'
   },
 ];
 
@@ -49,7 +49,7 @@ export const PRODUCTS = [
     name: 'Poivre Noir Premium',
     category: 'spices',
     description: 'Poivre noir cueilli à la main avec un arôme et un goût riches',
-    image: 'https://images.pexels.com/photos/4198714/pexels-photo-4198714.jpeg',
+    image: '/images/g4.jpg',
     featured: true,
   },
   {
@@ -57,7 +57,7 @@ export const PRODUCTS = [
     name: 'Curcuma Bio',
     category: 'spices',
     description: 'Racines et poudre de curcuma bio à haute teneur en curcumine',
-    image: 'https://images.pexels.com/photos/4198580/pexels-photo-4198580.jpeg',
+    image: '/images/g5.jpg',
     featured: true,
   },
   {
@@ -65,7 +65,7 @@ export const PRODUCTS = [
     name: 'Mangues de Qualité Export',
     category: 'produce',
     description: 'Mangues sucrées et juteuses de qualité export',
-    image: 'https://images.pexels.com/photos/918643/pexels-photo-918643.jpeg',
+    image: '/images/g6.jpg',
     featured: true,
   },
   {
@@ -73,7 +73,7 @@ export const PRODUCTS = [
     name: 'Paniers en Raphia Tissés à la Main',
     category: 'raffia',
     description: 'Paniers en raphia durables et magnifiques tissés par des artisans locaux',
-    image: 'https://images.pexels.com/photos/6969268/pexels-photo-6969268.jpeg',
+    image: '/images/g2.jpg',
     featured: true,
   },
   {
@@ -81,7 +81,7 @@ export const PRODUCTS = [
     name: 'Gousses de Cardamome',
     category: 'spices',
     description: 'Gousses de cardamome verte aromatiques avec une saveur intense',
-    image: 'https://images.pexels.com/photos/4199097/pexels-photo-4199097.jpeg',
+    image: '/images/g4.jpg',
     featured: false,
   },
   {
@@ -89,7 +89,7 @@ export const PRODUCTS = [
     name: 'Avocats Premium',
     category: 'produce',
     description: 'Avocats crémeux et nutritifs cultivés dans des conditions idéales',
-    image: 'https://images.pexels.com/photos/2228553/pexels-photo-2228553.jpeg',
+    image: '/images/g5.jpg',
     featured: false,
   },
   {
@@ -97,7 +97,7 @@ export const PRODUCTS = [
     name: 'Décorations Murales en Raphia',
     category: 'decorative',
     description: 'Décorations murales élégantes en raphia pour un intérieur moderne',
-    image: 'https://images.pexels.com/photos/4997809/pexels-photo-4997809.jpeg',
+    image: '/images/g6.jpg',
     featured: false,
   },
   {
@@ -105,7 +105,7 @@ export const PRODUCTS = [
     name: 'Bâtons de Cannelle Exotiques',
     category: 'spices',
     description: 'Cannelle de qualité premium avec un profil aromatique doux',
-    image: 'https://images.pexels.com/photos/6621383/pexels-photo-6621383.jpeg',
+    image: '/images/g3.jpg',
     featured: false,
   },
 ];
@@ -150,21 +150,21 @@ export const HERO_SLIDES = [
     id: 1,
     title: 'Épices Premium',
     subtitle: 'Directement des agriculteurs aux marchés mondiaux',
-    image: 'https://images.pexels.com/photos/4198714/pexels-photo-4198714.jpeg',
+    image: '/images/3.jpg',
     cta: 'Découvrez Nos Épices'
   },
   {
     id: 2,
     title: 'Produits Frais',
     subtitle: 'Fruits et légumes de qualité fraîche',
-    image: 'https://images.pexels.com/photos/1458694/pexels-photo-1458694.jpeg',
+    image: '/images/1.jpg',
     cta: 'Voir Produits Frais'
   },
   {
     id: 3,
     title: 'Raphia Artisanal',
     subtitle: 'Fabriqué à la main avec des techniques traditionnelles',
-    image: 'https://images.pexels.com/photos/6969268/pexels-photo-6969268.jpeg',
+    image: '/images/2.jpg',
     cta: 'Découvrez le Raphia'
   }
 ];
